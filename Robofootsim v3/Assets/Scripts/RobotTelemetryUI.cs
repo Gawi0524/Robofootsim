@@ -20,7 +20,6 @@ public class RobotTelemetryUI : MonoBehaviour
 
     void Start()
     {
-        // 👉 уменьшаем текст глобально
         if (text != null)
         {
             text.fontSize = 14f;
@@ -32,25 +31,22 @@ public class RobotTelemetryUI : MonoBehaviour
 
     void Update()
     {
-        if (body == null || text == null || blade == null)
-            return;
+        if (!body || !blade || !text) return;
 
-        // ===== ГЛОБАЛЬНЫЕ НАПРАВЛЕНИЯ В МИРЕ =====
         Vector3 right = body.transform.right;
         Vector3 forward = body.transform.forward;
-
         Vector3 center = body.position;
 
         float hw = bodyWidth * 0.5f;
         float hl = bodyLength * 0.5f;
 
-        // УГЛЫ КОРПУСА (WORLD SPACE)
+        // ===== КОРПУС =====
         Vector3 b1 = center + right * hw + forward * hl;
         Vector3 b2 = center - right * hw + forward * hl;
         Vector3 b3 = center - right * hw - forward * hl;
         Vector3 b4 = center + right * hw - forward * hl;
 
-        // УГЛЫ ОТВАЛА (WORLD SPACE)
+        // ===== ОТВАЛ =====
         Vector3 bc = blade.position;
 
         float bw = bladeWidth * 0.5f;
@@ -61,33 +57,26 @@ public class RobotTelemetryUI : MonoBehaviour
         Vector3 f3 = bc - right * bw - forward * bl;
         Vector3 f4 = bc + right * bw - forward * bl;
 
-        // ДИНАМИКА РОБОТА
+        // ===== ДВИЖЕНИЕ =====
         Vector3 v = body.velocity;
-        float speed = new Vector3(v.x, 0, v.z).magnitude;
+        float speed = new Vector3(v.x, 0f, v.z).magnitude;
 
         float angularSpeed = body.angularVelocity.y;
 
-        //  угол в мировых координатах (0 = глобальная ось Z)
-        float yawWorld = Mathf.Atan2(body.transform.forward.x, body.transform.forward.z);
+        // ===== УГОЛ ТОЛЬКО В ГРАДУСАХ =====
+        float yaw = Mathf.Atan2(body.transform.forward.x, body.transform.forward.z) * Mathf.Rad2Deg;
 
-        // ===== ВЫВОД В UI =====
         text.text =
-            $"=== РОБОТ ===\n\n" +
+            $"РОБОТ\n\n" +
 
-            $" КОРПУС (4 угла):\n" +
-            $"1 {b1}\n" +
-            $"2 {b2}\n" +
-            $"3 {b3}\n" +
-            $"4 {b4}\n\n" +
+            $"КОРПУС:\n" +
+            $"1 {b1}\n2 {b2}\n3 {b3}\n4 {b4}\n\n" +
 
-            $" ОТВАЛ:\n" +
-            $"1 {f1}\n" +
-            $"2 {f2}\n" +
-            $"3 {f3}\n" +
-            $"4 {f4}\n\n" +
+            $"ОТВАЛ:\n" +
+            $"1 {f1}\n2 {f2}\n3 {f3}\n4 {f4}\n\n" +
 
-            $" УГОЛ: {yawWorld:F3} рад\n" +
-            $" СКОРОСТЬ: {speed:F3} м/с\n" +
-            $" УГЛ. СКОРОСТЬ: {angularSpeed:F3} рад/с";
+            $"УГОЛ: {yaw:F1}°\n" +
+            $"СКОРОСТЬ: {speed:F3} м/с\n" +
+            $"УГЛ. СКОРОСТЬ: {angularSpeed:F3} рад/с";
     }
 }
