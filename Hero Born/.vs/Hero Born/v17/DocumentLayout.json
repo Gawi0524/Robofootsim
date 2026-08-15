@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\documents\\github\\robofootsim\\hero born\\assets\\scripts\\playerbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\documents\\github\\robofootsim\\hero born\\assets\\scripts\\gamebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\ItemBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\ItemBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|c:\\users\\\u0432\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\documents\\github\\robofootsim\\hero born\\assets\\scripts\\bulletbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\assets\\scripts\\enemybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\assets\\scripts\\learningcurve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\learningcurve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\CameraBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BC6FD2A-DC57-6AE8-BABB-E0BBF5F6DBE6}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\CameraBehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\PlayerBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBehavior.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\PlayerBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T12:12:03.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\GameBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameBehavior.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\GameBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameBehavior.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T11:43:56.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BulletBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\BulletBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletBehavior.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\BulletBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T11:40:46.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\EnemyBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBehavior.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\EnemyBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:50:08.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\ItemBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemBehavior.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\ItemBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:32:43.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CameraBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\CameraBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraBehavior.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\CameraBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:19:30.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T18:25:20.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LearningCurve.cs",
+              "DocumentMoniker": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\LearningCurve.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LearningCurve.cs",
+              "ToolTip": "C:\\Users\\\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Robofootsim\\Hero Born\\Assets\\Scripts\\LearningCurve.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LearningCurve.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T13:29:03.649Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
