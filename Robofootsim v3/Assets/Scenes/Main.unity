@@ -208,7 +208,6 @@ Transform:
   - {fileID: 543450653459323677}
   - {fileID: 168635415}
   - {fileID: 747992060}
-  - {fileID: 1653163106}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &121256662
@@ -223,18 +222,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e848bbda217cb0b4daf8ed751faa1138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentMode: 0
   controlScheme: 0
   bodyRb: {fileID: 919132149269250473}
   leftWheelRb: {fileID: 168635417}
   rightWheelRb: {fileID: 747992062}
   bodyMass: 0.225
   wheelMass: 0.02
-  wheelRadius: 0.021
-  wheelBase: 0.05
-  maxWheelRpm: 295
-  maxLinearSpeed: 0.65
   maxBodyAngularVelocity: 13
+  maxWheelRpm: 295
   maxTorquePerWheel: 0.15
+  pGain: 5
   localWheelTorqueAxis: {x: 1, y: 0, z: 0}
   invertLeft: 0
   invertRight: 0
@@ -807,7 +805,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653163105}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -815,7 +813,7 @@ Transform:
   - {fileID: 4083501151587181915}
   - {fileID: 1553299347395812095}
   - {fileID: 707732763}
-  m_Father: {fileID: 121256660}
+  m_Father: {fileID: 543450653459323677}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1785349328
 GameObject:
@@ -1109,6 +1107,7 @@ Transform:
   m_Children:
   - {fileID: 1618505525}
   - {fileID: 109905279}
+  - {fileID: 1653163106}
   m_Father: {fileID: 121256660}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &636111785361797228
