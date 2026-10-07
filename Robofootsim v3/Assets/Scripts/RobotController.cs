@@ -78,7 +78,11 @@ public class RobotController : MonoBehaviour
 
         leftMotorInput = Mathf.Clamp(leftSignals, -1f, 1f);
         rightMotorInput = Mathf.Clamp(rightSignals, -1f, 1f);
+
+        // ВРЕМЕННЫЙ ТЕСТ: Выводим сигналы в консоль Unity
+        Debug.Log($"[ИИ] Сигналы получены! Левое: {leftMotorInput}, Правое: {rightMotorInput}");
     }
+
 
     private void ReadKeyboardInput()
     {

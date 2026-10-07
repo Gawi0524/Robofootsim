@@ -185,6 +185,8 @@ GameObject:
   m_Component:
   - component: {fileID: 121256660}
   - component: {fileID: 121256662}
+  - component: {fileID: 121256664}
+  - component: {fileID: 121256663}
   m_Layer: 0
   m_Name: Robot_Red_01
   m_TagString: Untagged
@@ -222,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e848bbda217cb0b4daf8ed751faa1138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentMode: 0
+  currentMode: 1
   controlScheme: 0
   bodyRb: {fileID: 919132149269250473}
   leftWheelRb: {fileID: 168635417}
@@ -236,6 +238,54 @@ MonoBehaviour:
   localWheelTorqueAxis: {x: 1, y: 0, z: 0}
   invertLeft: 0
   invertRight: 0
+--- !u!114 &121256663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121256659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3fc48eed987aab43a0961cf7e4189ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
+  robotController: {fileID: 121256662}
+  ballRb: {fileID: 1956361347}
+--- !u!114 &121256664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121256659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    VectorObservationSize: 8
+    NumStackedVectorObservations: 1
+    m_ActionSpec:
+      m_NumContinuousActions: 2
+      BranchSizes: 
+    VectorActionSize: 02000000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 1
+    hasUpgradedBrainParametersWithActionSpec: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 1
+  m_BehaviorName: 'DriveToBall '
+  TeamId: 0
+  m_UseChildSensors: 1
+  m_UseChildActuators: 1
+  m_ObservableAttributeHandling: 0
 --- !u!1 &168635414
 GameObject:
   m_ObjectHideFlags: 0
